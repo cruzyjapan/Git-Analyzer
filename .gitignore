@@ -1,0 +1,91 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Git分析ツール システムファイル
+.git-analyzer/
+git-analyzer-config/
+git-analyzer-cache/
+git-analyzer-reports/
+*.git-analyzer.json
+*.git-analyzer.log
+
+# 環境設定ファイル
+env-config.json
+repository-registry.json
+cli-credentials.json
+
+# 出力ファイル
+reports/
+analysis-output/
+*.analysis-report.*
+*.report.md
+*.report.xlsx
+*.report.csv
+*.report.txt
+*.report.html
+
+# キャッシュ・一時ファイル
+.cache/
+tmp/
+temp/
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+*.log
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Package manager files (keep package-lock.json for npm)
+yarn.lock
+pnpm-lock.yaml
+
+# Debug and test files
+debug-*.js
+test-*.sh
+test-*.js
+*.test.js
+*.spec.js
+
+# User configuration
+~/.git-analyzer/
+
+# Logs
+logs/
+*.log
+
+# Analysis reports (keep templates)
+reports/*.md
+reports/*.xlsx
+reports/*.csv
+reports/*.txt
+reports/*.html
+
+# Temporary test repositories
+/tmp/
+test-repo/
+git-analyzer-test/
