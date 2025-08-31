@@ -1,0 +1,56 @@
+{
+  "patterns": {
+    "production": [
+      "main",
+      "master",
+      "production",
+      "prod",
+      "release",
+      "live"
+    ],
+    "staging": [
+      "staging",
+      "stage",
+      "test",
+      "testing",
+      "qa",
+      "uat",
+      "pre-prod",
+      "preprod"
+    ],
+    "development": [
+      "develop",
+      "development",
+      "dev",
+      "next",
+      "integration"
+    ]
+  },
+  "strategies": {
+    "gitflow": {
+      "production": "master",
+      "staging": null,
+      "development": "develop",
+      "features": "feature/*",
+      "hotfixes": "hotfix/*",
+      "releases": "release/*"
+    },
+    "githubflow": {
+      "production": "main",
+      "staging": null,
+      "development": null,
+      "features": "feature/*"
+    },
+    "gitlabflow": {
+      "production": "production",
+      "staging": "staging",
+      "development": "main",
+      "features": "feature/*"
+    }
+  },
+  "defaults": {
+    "production": "main",
+    "staging": "staging",
+    "development": "develop"
+  }
+}
